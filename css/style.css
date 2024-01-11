@@ -1,24 +1,26 @@
 
 body{
-background-color: rgb(130, 213, 245);
+background-color: rgb(255, 255, 255);
 font-size: 14px;
 margin: auto;
+padding: 5px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 header{
-color: aqua;
+color: rgb(255, 255, 255);
 background-color: rgb(0, 0, 0);
 font-size: 20px;
 text-decoration: dotted;
 padding: lem;
 
+
 }
 
 nav{
-background-color: black(233, 225, 74);
-padding: 0.2em;
+background-color: white(233, 225, 74);
+padding: 0.5em;
 
 
 
@@ -38,7 +40,7 @@ margin: 0;
 
 .top-menu a {
     text-decoration: none;
-    color: red;
+    color: rgb(53, 56, 198);
     font-weight: bold;
 
 }
@@ -48,18 +50,22 @@ margin: 0;
 
 }
 
-h2{
-
-
+h1 {
+    font-family: "Your Font", sans-serif; 
+    color: #ffffff; 
+    outline: rgb(7, 97, 31);
+    outline-width: 1px;
+    margin-bottom: 20px; 
 }
 
 p{
 
 }
 
-img{
-
-
+img {
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid #333; 
 }
 
 section{
@@ -68,16 +74,39 @@ section{
 }
 
 footer{
-background-color: black;
-color: aqua;
-padding: 1em;
+background-color: black(7, 97, 31);
+color: white(244, 244, 244);
+padding: 20px;
+text-align: center;
 
 
 }
 
 .h2spe{
-    background-color: blue;
-    color: aliceblue;
-    
+    background-color: rgb(147, 150, 149);
+    color: rgb(1, 1, 2);
+
 
 }
+h1 {
+    font-family: "Your Font", sans-serif; 
+    color: #ffffff; 
+    outline: rgb(7, 97, 31);
+    outline-width: 1px;
+    margin-bottom: 20px; 
+}
+
+a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: red; 
+}
+
+/*a:visited {
+    color: red; 
+}
+*/
+
