@@ -15,9 +15,11 @@ body{
     text-align: center;
     }
     footer{
-        background-color: orange;
+        background-color: black;
         padding: 20px;
         text-align: center;
+        color: white;
+        font-size: 20px;
     }
     aside{
         float: left;
@@ -26,21 +28,18 @@ body{
 .main1{
     background-color: beige;
 margin: 5px;
-flex-direction: column;
 border: 1px solid #333;
 padding: 10px;
 }
 .main2{
     background-color: beige;
 margin: 5px;
-flex-direction: column;
 border: 1px solid #333;
 padding: 10px;
 }
 .main3{
     background-color: beige;
 margin: 5px;
-flex-direction: column;
 border: 1px solid #333;
 padding: 10px;
 }
